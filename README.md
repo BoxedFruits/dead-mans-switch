@@ -15,3 +15,7 @@ The purpose of this project was to explore Web3 developement from top to bottom.
 ## *Everything on the blockchain is public*
 
 Just because something is declared as *private*, atleast in contracts deployed on EVM chains to my knowledge, does not mean that they are actually private. The contract's storage is stored on the blockchain and therefore is able to be read if you know the [storage slot](https://blockchain-academy.hs-mittweida.de/courses/solidity-coding-beginners-to-intermediate/lessons/solidity-12-reading-the-storage/topic/reading-the-ethereum-storage/). This can trivally be done with a library like web3js or ethersjs. Furthermore, the [construction arguements are public](https://github.com/BoxedFruits/dead-mans-switch/blob/master/dead-mans-switch-contracts/contracts/DeadMansContract.sol#L15). Someone would easily be able to read the description key with a block explorer.
+
+![Screenshot 2022-08-10 143919](https://user-images.githubusercontent.com/34636700/183991439-354aaebe-6e6c-485b-8f84-9d13272708dc.png)
+![Screenshot 2022-08-10 144233](https://user-images.githubusercontent.com/34636700/183995061-1f48be78-a763-4ac9-aa52-ef84313aa289.png)
+
