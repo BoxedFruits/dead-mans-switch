@@ -1,3 +1,6 @@
+# Note
+After gaining more knowledge and experience with Web3 Developement, I soon learned that this is a horrible implmentation because nothing on the blockchain is private. 😅
+
 # Decentralized Dead Man's Switch
 
 ## Project Description
